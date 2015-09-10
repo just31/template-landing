@@ -1,0 +1,31 @@
+{
+  "name": "stack-international-project",
+  "version": "1.0.0",
+  "authors": [
+    "Just <just8@mail.ru>"
+  ],
+  "description": "stack-international-project",
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "keywords": [
+    "test",
+    "project"
+  ],
+  "license": "MIT",
+  "homepage": "just8.ru",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ], 
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "~2.1.4",
+    "jquery-ui": "~1.11.0",
+    "bootstrap": ">= 3.0.0"
+  }
+}
