@@ -1,0 +1,52 @@
+﻿.footer {
+  margin-top: 40px;
+  background: #333333 url(../images/footer-bg.png) repeat-y;
+  background-size: contain;
+}
+
+.footer__about h3, .footer__download h3, .footer__touch h3 {
+  float: left;
+  font-family: 'Roboto Medium', arial;
+  font-size: 1em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer__about__text p {
+  margin-top: 7px;
+  margin-left: 4px;
+  font-family: 'Roboto Regular', arial;
+  font-size: .9em;
+  color: #D3D3D3;
+  line-height: 2;
+}
+
+.footer__download__list ul, .footer__touch__list ul {
+  list-style-image: url(../images/arrow.gif);
+  margin-top: 7px;
+  margin-left: -20px;
+  font-family: 'Roboto Regular', arial;
+  font-size: .9em;
+}
+
+.footer__download__list ul > li, .footer__touch__list ul > li {
+  margin-bottom: 14px;
+}
+
+.footer__download__list a, .footer__touch__list a {
+  color: #D3D3D3;
+  &:hover {
+    color: #D3D3D3;
+  }
+}
+
+.footer__copyright {
+  margin-top: 23px;
+  margin-bottom: 15px;
+  p {
+    margin-left: 4px;
+    font-family: 'Roboto Regular', arial;
+    font-size: .9em;
+    color: #D3D3D3;
+  }
+}

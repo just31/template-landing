@@ -1,0 +1,68 @@
+﻿.content {
+  margin-top: 100px;
+  display: block;
+  width: 100%;
+}
+
+.title {
+  margin-top: 25px;
+  margin-left: -29px;
+  margin-bottom: -5px;
+  color: #00B4F5;
+  font-family: 'Roboto Bold', arial;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.content__item-list {
+  margin-top: 70px;
+  margin-left: 20px;
+  margin-right: 50px;
+  img {
+    margin-left: 30px;
+  }
+}
+
+.content__item-list__theme img, .content__item-list__location img {
+  margin-left: 45px;
+}
+
+.content__item-list__heading {
+  margin-top: -60px;
+  margin-left: 10px;
+  color: #00B4F5;
+  font-family: 'Roboto Medium', arial;
+  font-size: 1.4em;
+}
+
+.content__item-list__heading_photo {
+  margin-left: 50px;
+}
+
+.content__item-list__heading_themes {
+  margin-left: -49px;
+}
+
+.content__item-list__heading_sharing {
+  margin-left: 21px;
+}
+
+.content__item-list p {
+  margin-top: -100px;
+  text-align: center;
+  font-family: 'Roboto Medium', arial;
+  font-size: .9em;
+}
+
+.content__heading {
+  margin-top: 50px;
+  margin-bottom: 42px;
+  margin-left: 0;
+  color: #00B4F5;
+  font-family: 'Roboto Light', arial;
+  font-size: 2.4em;
+}
+
+.content__device {
+  padding-left: 60px;
+}

@@ -1,0 +1,188 @@
+﻿@media screen and (min-width: 1024px) and (max-width: 1265px) {
+  body {
+    background-color: #fff !important;
+  }
+  .header {
+    margin-left: -2%;
+    margin-right: -1.9%;
+    width: 103.8% !important;
+    max-height: 671px;
+    background-size: contain;
+  }
+  .header__link {
+    ul {
+      margin-left: 70%;
+      list-style: none;
+    }
+    li {
+      float: left;
+      padding: 0 0 4% 11%;
+    }
+  }
+  .header__logo {
+    top: 0;
+    img {
+      margin-top: -2%;
+      margin-left: 6.7%;
+      width: 12% !important;
+    }
+  }
+  .header__slogan {
+    p {
+      margin-top: -7%;
+      margin-left: 11.7%;
+      font-size: 1em;
+    }
+    span {
+      position: relative;
+      top: -15px;
+      left: 81.7px;
+      font-size: 1.85em;
+    }
+  }
+  .header__menu {
+    ul {
+      margin-top: 2%;
+      margin-left: 5%;
+    }
+    li {
+      padding-right: 7.6%;
+      > a {
+        font-size: 1.4em;
+      }
+    }
+    a.active {
+      padding-left: 9.8px;
+      padding-bottom: 11px;
+      background-size: 90px;
+    }
+  }
+  .header__heading {
+    margin-top: 7%;
+    margin-left: 0%;
+    font-size: 2.2em;
+  }
+  .header__desctop {
+    float: none;
+    margin-top: 2%;
+    margin-left: 7%;
+    p {
+      margin-top: 4%;
+      margin-left: 0%;
+      width: 92%;
+      font-size: 1em;
+    }
+    ul {
+      margin-left: -2.3%;
+      width: 100%;
+      > li {
+        font-size: 1.3em;
+      }
+    }
+  }
+  .header__button img {
+    margin-left: -1.5%;
+    width: 40% !important;
+  }
+  #tab2__img {
+    margin-top: -250px;
+    margin-left: 104px;
+  }
+  .header__choose-devices {
+    margin-top: .5%;
+    img {
+      margin-top: -3.7%;
+      margin-left: 6%;
+      width: 55% !important;
+    }
+  }
+  .title {
+    margin-top: 47%;
+    margin-left: 29.5%;
+    margin-bottom: -2.4%;
+    font-size: 2.7em;
+  }
+  .content__item-list__heading {
+    margin-top: -59px;
+    margin-left: 25px;
+    width: 130px;
+    font-size: 1em;
+  }
+  .content__item-list__heading_photo {
+    margin-left: 50px;
+    width: 190px;
+  }
+  .content__item-list__heading_themes {
+    margin-left: -28px;
+  }
+  .content__item-list__heading_sharing {
+    margin-left: 23px;
+    width: 155px;
+  }
+  .content__item-list p {
+    margin-top: -109px;
+    margin-left: 2px;
+    width: 145px;
+  }
+  .content__heading {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 7.5%;
+    font-size: 2.1em;
+  }
+  .content__device img {
+    margin-left: 27.5%;
+    margin-bottom: 10%;
+    padding-bottom: 4%;
+    width: 40%;
+    border-bottom: 1px solid Grey;
+  }
+  .footer {
+    margin-top: -2%;
+    margin-left: -2%;
+    margin-right: -1.9%;
+    padding-left: 7% !important;
+  }
+  .footer__about h3, .footer__download h3, .footer__touch h3 {
+    margin-right: 8.5%;
+    font-size: 100%;
+  }
+  .footer__download h3 {
+    margin-top: 2.1%;
+    margin-left: 16.4%;
+  }
+  .footer__touch h3 {
+    margin-top: 1.9%;
+  }
+  .footer__about__text p {
+    margin-top: 0;
+    margin-left: 0;
+    width: 300px;
+    font-size: .8em;
+  }
+  .footer__download__list ul {
+    list-style-image: none !important;
+    list-style-type: disc;
+    margin-top: .8%;
+    margin-left: 10%;
+    font-size: .7em;
+  }
+  .footer__touch__list ul {
+    list-style-image: none !important;
+    list-style-type: disc;
+    margin-top: -23.55%;
+    margin-left: 53.9%;
+    font-size: .7em;
+  }
+  .footer__download__list ul > li, .footer__touch__list ul > li {
+    margin-bottom: 2.7%;
+  }
+  .footer__copyright {
+    margin-top: 1.8%;
+    margin-bottom: 2.5%;
+    p {
+      margin-left: 0;
+      font-size: .95em;
+    }
+  }
+}

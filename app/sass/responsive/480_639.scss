@@ -1,0 +1,160 @@
+﻿@media screen and (min-width: 480px) and (max-width: 639px) {
+  .header {
+    margin-left: -20px;
+    margin-right: -20px !important;
+    width: 104.2% !important;
+    background-size: contain;
+  }
+  .header__link {
+    ul {
+      margin-left: 55%;
+      list-style: none;
+    }
+    li {
+      float: left;
+      padding: 0 0 4% 11%;
+    }
+  }
+  .header__logo {
+    top: 0;
+    img {
+      margin-top: -3%;
+      margin-left: 6.1%;
+      width: 20% !important;
+    }
+  }
+  .header__slogan {
+    p {
+      margin-top: -12.5%;
+      margin-left: 11%;
+      font-size: 1em;
+    }
+    span {
+      position: relative;
+      top: -15px;
+      left: 82px;
+      font-size: 1.85em;
+    }
+  }
+  .header__menu {
+    margin-top: -2%;
+    ul {
+      margin-left: 2.5%;
+    }
+    li {
+      padding-right: 5.5%;
+      > a {
+        font-size: .8em;
+      }
+    }
+    a.active {
+      padding-left: 4px;
+      padding-bottom: 9px;
+      background-size: 50px;
+    }
+  }
+  .header__heading {
+    margin-top: 7%;
+    font-size: 1.8em;
+  }
+  .header__desctop {
+    float: none;
+    margin-top: 3%;
+    margin-left: 7%;
+    p {
+      margin-top: 5%;
+      margin-left: 0;
+      width: 94%;
+      font-size: .8em;
+    }
+    ul {
+      margin-left: -5.9%;
+      width: 100%;
+      > li {
+        font-size: 1em;
+      }
+    }
+  }
+  .header__button img {
+    margin-left: .5%;
+    width: 90% !important;
+  }
+  #tab2__img {
+    margin-top: -177px;
+    margin-left: 73px;
+  }
+  .header__choose-devices {
+    margin-top: -1%;
+    img {
+      margin-top: -3%;
+      margin-left: 8.8%;
+      width: 83% !important;
+    }
+  }
+  .title {
+    margin-top: 49%;
+    margin-left: 13.4%;
+    margin-bottom: 0;
+    font-size: 2.2em;
+  }
+  .content__heading {
+    margin-top: 9%;
+    margin-bottom: 8%;
+    margin-left: 1.2%;
+    font-size: 1.7em;
+  }
+  .content__device img {
+    margin-left: 1%;
+    margin-bottom: 10%;
+    padding-bottom: 4%;
+    width: 80%;
+    border-bottom: 1px solid Grey;
+  }
+  .footer {
+    margin-top: 5%;
+    margin-right: 0;
+    padding-left: 7% !important;
+  }
+  .footer__about h3, .footer__download h3, .footer__touch h3 {
+    margin-right: 8.5%;
+    font-size: 80%;
+  }
+  .footer__download h3 {
+    margin-top: 4.5%;
+    margin-left: 3.5%;
+  }
+  .footer__touch h3 {
+    margin-top: 4.4%;
+  }
+  .footer__about__text p {
+    margin-top: 1%;
+    margin-left: 0;
+    width: 140px;
+    font-size: .5em;
+  }
+  .footer__download__list ul {
+    list-style-image: none !important;
+    list-style-type: disc;
+    margin-top: .5%;
+    margin-left: 20%;
+    font-size: .6em;
+  }
+  .footer__touch__list ul {
+    list-style-image: none !important;
+    list-style-type: disc;
+    margin-top: -32.2%;
+    margin-left: 54.9%;
+    font-size: .6em;
+  }
+  .footer__download__list ul > li, .footer__touch__list ul > li {
+    margin-bottom: 4%;
+  }
+  .footer__copyright {
+    margin-top: 3%;
+    margin-bottom: 4%;
+    p {
+      margin-left: .2%;
+      font-size: .65em;
+    }
+  }
+}

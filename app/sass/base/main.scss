@@ -1,0 +1,43 @@
+﻿/* Базовые стили */
+body {
+  margin: 0;
+  font-size: 100%;
+  line-height: normal;
+  color: #373737;
+  background-color: #EBEBEB !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: block;
+  width: 100%;
+  max-width: 1170px;
+  background-color: #fff !important;
+}
+
+
+/* Стили хедера */
+@import "../blocks/header";
+
+/* Контента */
+@import "../blocks/content";
+
+/* Стили футера */
+@import "../blocks/footer";
+
+
+
+
+
+
+
+

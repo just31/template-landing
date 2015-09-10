@@ -1,0 +1,13 @@
+﻿@import "../../bower_components/normalize.css/normalize.css";
+@import "../../bower_components/bootstrap/dist/css/bootstrap.css";
+
+@import "base/fonts";
+
+@import "base/main";
+
+/* Адаптивный дизайн */
+@import "responsive/320_479";
+@import "responsive/480_639";
+@import "responsive/640_767";
+@import "responsive/768_1023";
+@import "responsive/1024_1265";
