@@ -3,7 +3,8 @@
     margin-left: -20px;
     margin-right: -20px !important;
     width: 103% !important;
-    background-size: contain !important;
+    height: 500px;
+    background-size: contain;
   }
   .header__link {
     ul {
@@ -26,13 +27,15 @@
   .header__slogan {
     p {
       margin-top: -9.5%;
-      margin-left: 9%;
+      margin-left: 8%;
       font-size: 1em;
     }
     span {
       position: relative;
+      /* Относительное позиционирование */
       top: -15px;
-      left: 81px;
+      /* Сдвиг сверху */
+      left: 90px;
       font-size: 1.85em;
     }
   }
@@ -58,7 +61,7 @@
   .header__heading {
     margin-top: 7%;
     margin-left: -1.2%;
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .header__desctop {
     float: none;
@@ -67,35 +70,36 @@
     p {
       margin-top: 5%;
       margin-left: -1%;
-      width: 94%;
-      font-size: .9em;
+      width: 40%;
+      font-size: .5em;
     }
     ul {
       margin-left: -5.5%;
-      width: 100%;
+      width: 45%;
       > li {
-        font-size: 1.2em;
+        font-size: .6em;
       }
     }
   }
   .header__button img {
     margin-left: -1.5%;
-    width: 90% !important;
-  }
-  #tab2__img {
-    margin-top: -239px;
-    margin-left: 80px;
+    width: 40% !important;
   }
   .header__choose-devices {
-    margin-top: 0;
+    margin-top: -49%;
+    margin-left: 50%;
     img {
-      margin-top: -5.2%;
-      margin-left: 6%;
-      width: 83.5% !important;
+      margin-top: -4%;
+      margin-left: -2%;
+      width: 95% !important;
     }
   }
+  #tab2__img {
+    margin-top: -30% !important;
+    margin-left: 5.9% !important;
+  }
   .title {
-    margin-top: 71%;
+    margin-top: -8%;
     margin-left: 17%;
     margin-bottom: 2%;
     font-size: 2.7em;
@@ -106,12 +110,23 @@
     margin-left: 1.8%;
     font-size: 2em;
   }
-  .content__device img {
-    margin-left: 11%;
-    margin-bottom: 10%;
-    padding-bottom: 4%;
-    width: 70%;
-    border-bottom: 1px solid Grey;
+  .content__device {
+    margin-right: 3% !important;
+    margin-bottom: -8%;
+    padding-left: 0;
+    img {
+      margin-left: 9%;
+      margin-bottom: 10%;
+      padding-bottom: 4%;
+      float: left;
+      width: 12%;
+      &[src="images/device_4.png"] {
+        width: 9%;
+      }
+      &[src="images/device_5.png"] {
+        width: 6%;
+      }
+    }
   }
   .footer {
     margin-top: 2%;

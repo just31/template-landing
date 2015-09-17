@@ -1,6 +1,7 @@
+/* Стили хедера */ 
 .header {
   max-height: 649px;
-  background: #4D6FB2 url(../images/header-gradient.png) repeat-x !important;
+  background: #4D6FB2 url(../images/header-gradient.png) repeat-x;
   background-size: contain;
 }
 
@@ -26,8 +27,8 @@
 
 .header__slogan {
   p {
-    margin-top: -4px;
-    margin-left: -101px;
+    margin-top: -27px;
+    margin-left: -15px;
     font-family: 'Chalet';
     color: #fff;
     letter-spacing: 4px;
@@ -35,8 +36,9 @@
   }
   span {
     position: relative;
-    top: -16px;
-    left: 83px;
+    /* Относительное позиционирование */
+    top: 5px;
+    /* Сдвиг сверху */
     font-family: 'ITC Benguiat Gothic Std Hvy';
     font-size: 27px;
     font-weight: 600;

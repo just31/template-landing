@@ -3,8 +3,8 @@
     margin-left: -20px;
     margin-right: -20px !important;
     width: 102.7% !important;
-    max-height: 680px;
-    background-size: contain !important;
+    height: 600px !important;
+    background-size: contain;
   }
   .header__link {
     ul {
@@ -27,13 +27,15 @@
   .header__slogan {
     p {
       margin-top: -9.5%;
-      margin-left: 10.9%;
+      margin-left: 9.9%;
       font-size: 1em;
     }
     span {
       position: relative;
+      /* Относительное позиционирование */
       top: -15px;
-      left: 81.7px;
+      /* Сдвиг сверху */
+      left: 90px;
       font-size: 1.85em;
     }
   }
@@ -59,48 +61,46 @@
   .header__heading {
     margin-top: 7%;
     margin-left: -1.2%;
-    font-size: 2.2em;
+    font-size: 1.7em;
   }
   .header__desctop {
     float: none;
-    margin-top: 2%;
+    margin-top: 3%;
     margin-left: 7%;
     p {
-      margin-top: 4%;
+      margin-top: 2%;
       margin-left: -1%;
-      font-size: 1em;
+      width: 40%;
+      font-size: .7em;
     }
     ul {
-      margin-left: -4.3%;
-      width: 100%;
+      margin-left: -4.7%;
+      width: 43%;
       > li {
-        font-size: 1.3em;
+        font-size: .8em;
       }
     }
   }
   .header__button img {
     margin-left: -1.5%;
-    width: 68% !important;
-    &:nth-child(1) {
-      padding-bottom: .5%;
+    width: 30% !important;
+  }
+  .header__choose-devices {
+    margin-top: -50.8%;
+    margin-left: 47%;
+    img {
+      margin-top: -4%;
+      margin-left: -2%;
+      width: 95% !important;
     }
   }
   #tab2__img {
-    margin-top: -290px;
-    margin-left: 100px;
-  }
-  .header__choose-devices {
-    margin-top: 0;
-    img {
-      margin-top: -4.2%;
-      margin-left: 6%;
-      width: 83.5% !important;
-    }
+    margin-top: -30% !important;
+    margin-left: 5.9% !important;
   }
   .title {
-    margin-top: 70.5%;
+    margin-top: -6%;
     margin-left: 24.5%;
-    margin-bottom: -3%;
     font-size: 2.7em;
   }
   .content__item-list__heading {
@@ -120,12 +120,23 @@
     margin-left: 2%;
     font-size: 2.1em;
   }
-  .content__device img {
-    margin-left: 15.5%;
-    margin-bottom: 10%;
-    padding-bottom: 4%;
-    width: 60%;
-    border-bottom: 1px solid Grey;
+  .content__device {
+    margin-right: 3% !important;
+    margin-bottom: -8%;
+    padding-left: 0;
+    img {
+      margin-left: 9%;
+      margin-bottom: 10%;
+      padding-bottom: 4%;
+      float: left;
+      width: 9% !important;
+      &[src="images/device_4.png"] {
+        width: 7% !important;
+      }
+      &[src="images/device_5.png"] {
+        width: 5% !important;
+      }
+    }
   }
   .footer {
     margin-top: 0;

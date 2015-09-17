@@ -1,17 +1,14 @@
-﻿@media screen and (min-width: 1024px) and (max-width: 1265px) {
-  body {
-    background-color: #fff !important;
-  }
+﻿@media screen and (min-width: 768px) and (max-width: 1023px) {
   .header {
-    margin-left: -2%;
-    margin-right: -1.9%;
-    width: 103.8% !important;
-    max-height: 671px;
-    background-size: contain !important;
+    margin-left: -20px;
+    margin-right: -20px !important;
+    width: 102.7% !important;
+    height: 600px !important;
+    background-size: contain;
   }
   .header__link {
     ul {
-      margin-left: 70%;
+      margin-left: 65%;
       list-style: none;
     }
     li {
@@ -22,84 +19,88 @@
   .header__logo {
     top: 0;
     img {
-      margin-top: -2%;
-      margin-left: 6.7%;
-      width: 12% !important;
+      margin-top: -3%;
+      margin-left: 5%;
+      width: 15% !important;
     }
   }
   .header__slogan {
     p {
-      margin-top: -7%;
-      margin-left: 11.7%;
+      margin-top: -9.5%;
+      margin-left: 9.9%;
       font-size: 1em;
     }
     span {
       position: relative;
+      /* Относительное позиционирование */
       top: -15px;
-      left: 81.7px;
+      /* Сдвиг сверху */
+      left: 90px;
       font-size: 1.85em;
     }
   }
   .header__menu {
+    margin-top: 4%;
+    margin-left: -2.5%;
     ul {
       margin-top: 2%;
       margin-left: 5%;
     }
     li {
-      padding-right: 7.6%;
+      padding-right: 6.4%;
       > a {
-        font-size: 1.4em;
+        font-size: 1.2em;
       }
     }
     a.active {
-      padding-left: 9.8px;
+      padding-left: 7px;
       padding-bottom: 11px;
-      background-size: 90px;
+      background-size: 75px;
     }
   }
   .header__heading {
     margin-top: 7%;
-    margin-left: 0%;
-    font-size: 2.2em;
+    margin-left: -1.2%;
+    font-size: 1.7em;
   }
   .header__desctop {
     float: none;
-    margin-top: 2%;
+    margin-top: 3%;
     margin-left: 7%;
     p {
-      margin-top: 4%;
-      margin-left: 0%;
-      width: 92%;
-      font-size: 1em;
+      margin-top: 2%;
+      margin-left: -1%;
+      width: 40%;
+      font-size: .7em;
     }
     ul {
-      margin-left: -2.3%;
-      width: 100%;
+      margin-left: -4.7%;
+      width: 43%;
       > li {
-        font-size: 1.3em;
+        font-size: .8em;
       }
     }
   }
   .header__button img {
     margin-left: -1.5%;
-    width: 40% !important;
-  }
-  #tab2__img {
-    margin-top: -250px;
-    margin-left: 104px;
+    width: 30% !important;
   }
   .header__choose-devices {
-    margin-top: .5%;
+    margin-top: -50.8%;
+    margin-left: 47%;
     img {
-      margin-top: -3.7%;
-      margin-left: 6%;
-      width: 55% !important;
+      margin-top: -4%;
+      margin-left: -2%;
+      width: 95% !important;
     }
   }
+  #tab2__img {
+    margin-top: -30% !important;
+    margin-left: 5.9% !important;
+  }
   .title {
-    margin-top: 47%;
-    margin-left: 29.5%;
-    margin-bottom: -2.4%;
+    margin-top: -6%;
+    margin-left: 24.5%;
     font-size: 2.7em;
   }
   .content__item-list__heading {
@@ -108,57 +109,56 @@
     width: 130px;
     font-size: 1em;
   }
-  .content__item-list__heading_photo {
-    margin-left: 50px;
-    width: 190px;
-  }
-  .content__item-list__heading_themes {
-    margin-left: -28px;
-  }
-  .content__item-list__heading_sharing {
-    margin-left: 23px;
-    width: 155px;
-  }
   .content__item-list p {
     margin-top: -109px;
     margin-left: 2px;
     width: 145px;
   }
   .content__heading {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 7.5%;
+    margin-top: 1.5%;
+    margin-bottom: 6%;
+    margin-left: 2%;
     font-size: 2.1em;
   }
-  .content__device img {
-    margin-left: 27.5%;
-    margin-bottom: 10%;
-    padding-bottom: 4%;
-    width: 40%;
-    border-bottom: 1px solid Grey;
+  .content__device {
+    margin-right: 3% !important;
+    margin-bottom: -8%;
+    padding-left: 0;
+    img {
+      margin-left: 9%;
+      margin-bottom: 10%;
+      padding-bottom: 4%;
+      float: left;
+      width: 12%;
+      &[src="images/device_4.png"] {
+        width: 9%;
+      }
+      &[src="images/device_5.png"] {
+        width: 6%;
+      }
+    }
   }
   .footer {
-    margin-top: -2%;
-    margin-left: -2%;
-    margin-right: -1.9%;
+    margin-top: 0;
+    margin-right: 0;
     padding-left: 7% !important;
   }
   .footer__about h3, .footer__download h3, .footer__touch h3 {
     margin-right: 8.5%;
-    font-size: 100%;
+    font-size: 85%;
   }
   .footer__download h3 {
-    margin-top: 2.1%;
-    margin-left: 16.4%;
+    margin-top: 2.9%;
+    margin-left: 13.8%;
   }
   .footer__touch h3 {
-    margin-top: 1.9%;
+    margin-top: 2.6%;
   }
   .footer__about__text p {
     margin-top: 0;
     margin-left: 0;
-    width: 300px;
-    font-size: .8em;
+    width: 240px;
+    font-size: .7em;
   }
   .footer__download__list ul {
     list-style-image: none !important;
@@ -170,19 +170,19 @@
   .footer__touch__list ul {
     list-style-image: none !important;
     list-style-type: disc;
-    margin-top: -23.55%;
-    margin-left: 53.9%;
+    margin-top: -27.8%;
+    margin-left: 53.5%;
     font-size: .7em;
   }
   .footer__download__list ul > li, .footer__touch__list ul > li {
-    margin-bottom: 2.7%;
+    margin-bottom: 3%;
   }
   .footer__copyright {
-    margin-top: 1.8%;
-    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 4%;
     p {
-      margin-left: 0;
-      font-size: .95em;
+      margin-left: .2%;
+      font-size: .90em;
     }
   }
 }

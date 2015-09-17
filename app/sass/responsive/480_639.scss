@@ -3,7 +3,8 @@
     margin-left: -20px;
     margin-right: -20px !important;
     width: 104.2% !important;
-    background-size: contain !important;
+    height: 520px !important;
+    background-size: contain;
   }
   .header__link {
     ul {
@@ -26,13 +27,15 @@
   .header__slogan {
     p {
       margin-top: -12.5%;
-      margin-left: 11%;
+      margin-left: 8%;
       font-size: 1em;
     }
     span {
       position: relative;
+      /* Относительное позиционирование */
       top: -15px;
-      left: 82px;
+      /* Сдвиг сверху */
+      left: 90px;
       font-size: 1.85em;
     }
   }
@@ -55,60 +58,73 @@
   }
   .header__heading {
     margin-top: 7%;
-    font-size: 1.8em;
+    font-size: 1.3em;
   }
   .header__desctop {
     float: none;
     margin-top: 3%;
     margin-left: 7%;
     p {
-      margin-top: 5%;
-      margin-left: 0;
-      width: 94%;
-      font-size: .8em;
+      margin-top: 2%;
+      margin-left: .5%;
+      width: 50%;
+      font-size: .6em;
     }
     ul {
+      margin-top: 3% !important;
       margin-left: -5.9%;
-      width: 100%;
+      margin-bottom: -2%;
+      width: 55%;
       > li {
-        font-size: 1em;
+        font-size: .7em;
       }
     }
   }
   .header__button img {
     margin-left: .5%;
-    width: 90% !important;
+    width: 47% !important;
   }
   #tab2__img {
-    margin-top: -177px;
-    margin-left: 73px;
+    margin-top: -111.9% !important;
+    margin-left: 55.3% !important;
   }
   .header__choose-devices {
     margin-top: -1%;
     img {
-      margin-top: -3%;
-      margin-left: 8.8%;
-      width: 83% !important;
+      margin-top: -122%;
+      margin-left: 55%;
+      width: 48% !important;
     }
   }
   .title {
-    margin-top: 49%;
+    margin-top: -14%;
     margin-left: 13.4%;
     margin-bottom: 0;
     font-size: 2.2em;
   }
   .content__heading {
-    margin-top: 9%;
+    margin-top: 0;
     margin-bottom: 8%;
     margin-left: 1.2%;
     font-size: 1.7em;
   }
-  .content__device img {
-    margin-left: 1%;
-    margin-bottom: 10%;
-    padding-bottom: 4%;
-    width: 80%;
-    border-bottom: 1px solid Grey;
+  .content__device {
+    margin-right: 3% !important;
+    margin-bottom: -11%;
+    padding-left: 3.9%;
+    img {
+      margin-left: 9%;
+      margin-bottom: 10%;
+      padding-bottom: 4%;
+      float: left;
+      width: 9%;
+      &[src="images/device_4.png"] {
+        width: 7%;
+      }
+      &[src="images/device_5.png"] {
+        width: 5%;
+      }
+    }
   }
   .footer {
     margin-top: 5%;
@@ -156,5 +172,98 @@
       margin-left: .2%;
       font-size: .65em;
     }
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+  .header {
+    height: 480px !important;
+  }
+  .header__link {
+    ul {
+      margin-left: 59%;
+      list-style: none;
+    }
+    li {
+      float: left;
+      padding: 0 0 4% 11%;
+      > a {
+        font-size: 1em;
+      }
+    }
+  }
+  .header__logo {
+    top: 0;
+    img {
+      margin-top: -3%;
+      margin-left: 6.1%;
+      width: 15% !important;
+    }
+  }
+  .header__slogan {
+    p {
+      margin-top: -9.5%;
+      margin-left: 8%;
+      font-size: 1em;
+    }
+    span {
+      position: relative;
+      /* Относительное позиционирование */
+      top: -15px;
+      /* Сдвиг сверху */
+      left: 90px;
+      font-size: 1.85em;
+    }
+  }
+  #tab2__img {
+    margin-top: -56% !important;
+    margin-left: 54% !important;
+  }
+  .header__choose-devices {
+    margin-top: -4%;
+    img {
+      margin-top: -68% !important;
+      margin-left: 54%;
+      width: 47% !important;
+    }
+  }
+  .title {
+    margin-top: -10%;
+    margin-left: 20.5%;
+  }
+  .content__heading {
+    margin-top: 3%;
+    margin-bottom: 8%;
+    margin-left: 7%;
+  }
+  .footer__about h3, .footer__download h3, .footer__touch h3 {
+    margin-right: 20%;
+    font-size: 60%;
+  }
+  .footer__download h3 {
+    margin-top: 3.5%;
+  }
+  .footer__touch h3 {
+    margin-top: 3%;
+  }
+  .footer__about__text p {
+    margin-top: 1%;
+    margin-left: 0;
+    font-size: .3em;
+  }
+  .footer__download__list ul {
+    list-style-image: none !important;
+    list-style-type: disc;
+    margin-top: .3%;
+    margin-left: 27.5%;
+    font-size: .4em;
+    line-height: .2;
+  }
+  .footer__touch__list ul {
+    list-style-image: none !important;
+    list-style-type: disc;
+    margin-top: -17.5%;
+    margin-left: 61.5%;
+    font-size: .4em;
   }
 }

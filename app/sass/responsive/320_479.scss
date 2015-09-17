@@ -3,35 +3,43 @@
     margin-left: -20px;
     margin-right: -20px !important;
     width: 106.2%;
-    background-size: contain !important;
+    height: 450px !important;
+    background-size: contain;
   }
   .header__link {
     ul {
+      margin-left: 60%;
       list-style: none;
     }
     li {
       float: left;
-      padding: 0 0 4% 13%;
+      padding: 0 0 4% 8%;
+      > a {
+        font-size: .6em;
+      }
     }
   }
   .header__logo {
-    top: 0;
+    top: -20px;
+    left: -59px;
     img {
       margin-left: 25%;
-      width: 20% !important;
+      width: 15% !important;
     }
   }
   .header__slogan {
     p {
-      margin-top: -13.5%;
-      margin-left: 23.5%;
-      font-size: 70%;
+      margin-top: -15%;
+      margin-left: 7%;
+      font-size: 60%;
     }
     span {
       position: relative;
+      /* Относительное позиционирование */
       top: -15px;
-      left: 70px;
-      font-size: 220%;
+      /* Сдвиг сверху */
+      left: 66.4px;
+      font-size: 200%;
     }
   }
   .header__menu {
@@ -57,56 +65,68 @@
     margin-left: 7%;
     p {
       margin-top: 5%;
-      margin-left: 0;
-      width: 94%;
-      font-size: .8em;
+      margin-left: .5%;
+      width: 45%;
+      font-size: .5em;
     }
     ul {
-      margin-left: -9%;
-      width: 100%;
+      margin-top: 0;
+      margin-left: -9.5%;
+      width: 55%;
       > li {
-        font-size: .8em;
+        font-size: .5em;
       }
     }
   }
   .header__heading {
     margin-top: 9%;
-    font-size: 1.4em;
+    font-size: .8em;
   }
   .header__button img {
+    margin-top: -8%;
     margin-left: .5%;
-    width: 90% !important;
+    width: 45% !important;
   }
   #tab2__img {
-    margin-top: -115px;
-    margin-left: 47px;
+    margin-top: -125% !important;
+    margin-left: 52% !important;
   }
   .header__choose-devices {
     margin-top: -4%;
     img {
-      margin-top: -3%;
-      margin-left: 8.8%;
-      width: 83% !important;
+      margin-top: -142%;
+      margin-left: 52%;
+      width: 50% !important;
     }
   }
   .title {
-    margin-top: 22%;
+    margin-top: -23%;
     margin-left: 6.2%;
-    margin-bottom: 0;
     font-size: 1.7em;
   }
   .content__heading {
-    margin-top: 11%;
+    margin-top: -4%;
     margin-bottom: 8%;
     margin-left: 2.4%;
     font-size: 1.4em;
   }
-  .content__device img {
-    margin-left: -8%;
-    margin-bottom: 10%;
-    padding-bottom: 4%;
-    width: 90%;
-    border-bottom: 1px solid Grey;
+  .content__device {
+    margin-right: 1% !important;
+    margin-bottom: -12%;
+    padding-left: 0;
+    img {
+      margin-left: 9%;
+      margin-bottom: 10%;
+      padding-bottom: 4%;
+      float: left;
+      width: 11%;
+      &[src="images/device_4.png"] {
+        width: 9%;
+      }
+      &[src="images/device_5.png"] {
+        width: 6%;
+      }
+    }
   }
   .footer {
     margin-top: 10%;
@@ -114,14 +134,14 @@
     padding-left: 7% !important;
   }
   .footer__about h3, .footer__download h3, .footer__touch h3 {
-    margin-right: 8.5%;
+    margin-right: 12%;
     font-size: 60%;
   }
   .footer__download h3 {
-    margin-top: 7%;
+    margin-top: 6%;
   }
   .footer__touch h3 {
-    margin-top: 6.5%;
+    margin-top: 5.2%;
   }
   .footer__about__text p {
     margin-top: 1%;
@@ -131,15 +151,15 @@
   .footer__download__list ul {
     list-style-image: none !important;
     list-style-type: disc;
-    margin-top: .5%;
+    margin-top: 0;
     margin-left: 27.5%;
     font-size: .4em;
   }
   .footer__touch__list ul {
     list-style-image: none !important;
     list-style-type: disc;
-    margin-top: -32.65%;
-    margin-left: 53.1%;
+    margin-top: -31%;
+    margin-left: 54.4%;
     font-size: .4em;
   }
   .footer__download__list ul > li, .footer__touch__list ul > li {
@@ -152,5 +172,439 @@
       margin-left: .2%;
       font-size: .55em;
     }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 359px) {
+  .header {
+    height: 400px !important;
+  }
+  .header__link {
+    ul {
+      margin-left: 49%;
+      list-style: none;
+    }
+    li {
+      float: left;
+      padding: 0 0 4% 8%;
+      > a {
+        font-size: .6em;
+      }
+    }
+  }
+  .header__logo {
+    top: -20px;
+    left: -52px;
+    img {
+      margin-left: 25%;
+      width: 15% !important;
+    }
+  }
+  .header__slogan {
+    p {
+      margin-top: -15.8%;
+      margin-left: 4%;
+      font-size: 60%;
+    }
+    span {
+      position: relative;
+      /* Относительное позиционирование */
+      top: -11px;
+      /* Сдвиг сверху */
+      left: 66.4px;
+      font-size: 200%;
+    }
+  }
+  .header__menu {
+    margin-top: -12%;
+  }
+  #tab2__img {
+    margin-top: -165% !important;
+    margin-left: 53% !important;
+  }
+  .header__choose-devices img {
+    margin-top: -175%;
+    margin-left: 53%;
+    width: 50% !important;
+  }
+  .footer__about h3, .footer__download h3, .footer__touch h3 {
+    margin-right: 9%;
+    font-size: 60%;
+  }
+  .footer__download h3 {
+    margin-top: 6%;
+  }
+  .footer__touch h3 {
+    margin-top: 5.2%;
+  }
+  .footer__about__text p {
+    margin-top: 1%;
+    margin-left: 0;
+    font-size: .3em;
+  }
+  .footer__download__list ul {
+    list-style-image: none !important;
+    list-style-type: disc;
+    margin-top: 0;
+    margin-left: 27.5%;
+    font-size: .4em;
+  }
+  .footer__touch__list ul {
+    list-style-image: none !important;
+    list-style-type: disc;
+    margin-top: -32.3%;
+    margin-left: 52.6%;
+    font-size: .4em;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 360px) {
+  .header {
+    height: 400px !important;
+  }
+  .header__link li > a {
+    font-size: .6em;
+  }
+  .title {
+    margin-top: -22%;
+    margin-left: 12.5%;
+  }
+  .content__heading {
+    margin-top: -7%;
+    margin-bottom: 8%;
+    margin-left: 6%;
+  }
+  .footer {
+    margin-top: 5%;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 374px) {
+  #tab2__img {
+    margin-top: -165% !important;
+    margin-left: 53% !important;
+  }
+  .header__choose-devices {
+    margin-top: -4%;
+    img {
+      margin-top: -175%;
+      margin-left: 53%;
+      width: 50% !important;
+    }
+  }
+  .footer__about h3, .footer__download h3, .footer__touch h3 {
+    margin-right: 9%;
+    font-size: 60%;
+  }
+  .footer__download h3 {
+    margin-top: 6%;
+  }
+  .footer__touch h3 {
+    margin-top: 5.2%;
+  }
+  .footer__about__text p {
+    margin-top: 1%;
+    margin-left: 0;
+    font-size: .3em;
+  }
+  .footer__download__list ul {
+    list-style-image: none !important;
+    list-style-type: disc;
+    margin-top: 0;
+    margin-left: 27.5%;
+    font-size: .4em;
+  }
+  .footer__touch__list ul {
+    list-style-image: none !important;
+    list-style-type: disc;
+    margin-top: -31%;
+    margin-left: 52.6%;
+    font-size: .4em;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 411px) {
+  .header {
+    height: 400px !important;
+  }
+  .header__link {
+    ul {
+      margin-left: 55%;
+      list-style: none;
+    }
+    li {
+      float: left;
+      padding: 0 0 4% 8%;
+      > a {
+        font-size: .7em;
+      }
+    }
+  }
+  .header__logo {
+    top: -20px;
+    left: -67px;
+    img {
+      margin-left: 25%;
+      width: 15% !important;
+    }
+  }
+  .header__slogan {
+    p {
+      margin-top: -15% !important;
+      margin-left: 6% !important;
+      font-size: 60%;
+    }
+    span {
+      position: relative;
+      /* Относительное позиционирование */
+      top: -11px;
+      /* Сдвиг сверху */
+      left: 66.4px;
+      font-size: 200%;
+    }
+  }
+  #tab2__img {
+    margin-top: -125% !important;
+    margin-left: 51% !important;
+  }
+  .header__choose-devices {
+    margin-top: -4%;
+    img {
+      margin-top: -135%;
+      margin-left: 51%;
+      width: 50% !important;
+    }
+  }
+  .title {
+    margin-top: -23%;
+    margin-left: 14%;
+  }
+  .content__heading {
+    margin-top: -7%;
+    margin-bottom: 8%;
+    margin-left: 9%;
+  }
+  .footer__about h3, .footer__download h3, .footer__touch h3 {
+    margin-right: 13.5%;
+    font-size: 60%;
+  }
+  .footer__download h3 {
+    margin-top: 5.5%;
+  }
+  .footer__touch h3 {
+    margin-top: 5.1%;
+  }
+  .footer__about__text p {
+    margin-top: 1%;
+    margin-left: 0;
+    font-size: .3em;
+  }
+  .footer__download__list ul {
+    list-style-image: none !important;
+    list-style-type: disc;
+    margin-top: 0;
+    margin-left: 27.5%;
+    font-size: .4em;
+  }
+  .footer__touch__list ul {
+    list-style-image: none !important;
+    list-style-type: disc;
+    margin-top: -30%;
+    margin-left: 56%;
+    font-size: .4em;
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 412px) {
+  .header {
+    height: 400px !important;
+  }
+  .header__link {
+    ul {
+      margin-left: 58.5%;
+      list-style: none;
+    }
+    li {
+      float: left;
+      padding: 0 0 4% 8%;
+      > a {
+        font-size: .7em;
+      }
+    }
+  }
+  .header__logo {
+    top: -20px;
+    left: -67px;
+    img {
+      margin-left: 23%;
+      margin-bottom: 2%;
+      width: 15% !important;
+    }
+  }
+  .header__slogan {
+    p {
+      margin-top: -16% !important;
+      margin-left: 8% !important;
+      font-size: 60%;
+    }
+    span {
+      position: relative;
+      /* Относительное позиционирование */
+      top: -11px;
+      /* Сдвиг сверху */
+      left: 66.4px;
+      font-size: 200%;
+    }
+  }
+  .header__menu {
+    margin-top: -7%;
+  }
+  #tab2__img {
+    margin-top: -98% !important;
+    margin-left: 51% !important;
+  }
+  .header__choose-devices {
+    margin-top: -4%;
+    img {
+      margin-top: -108%;
+      margin-left: 51%;
+      width: 50% !important;
+    }
+  }
+  .title {
+    margin-top: -19%;
+    margin-left: 16%;
+  }
+  .content__heading {
+    margin-top: -4%;
+    margin-bottom: 8%;
+    margin-left: 4%;
+  }
+  .footer__about h3, .footer__download h3, .footer__touch h3 {
+    margin-right: 15.5%;
+    font-size: 60%;
+  }
+  .footer__download h3 {
+    margin-top: 5.5%;
+  }
+  .footer__touch h3 {
+    margin-top: 5.1%;
+  }
+  .footer__about__text p {
+    margin-top: 1%;
+    margin-left: 0;
+    font-size: .3em;
+  }
+  .footer__download__list ul {
+    list-style-image: none !important;
+    list-style-type: disc;
+    margin-top: 0;
+    margin-left: 27.5%;
+    font-size: .4em;
+  }
+  .footer__touch__list ul {
+    list-style-image: none !important;
+    list-style-type: disc;
+    margin-top: -28.5%;
+    margin-left: 57.7%;
+    font-size: .4em;
+  }
+}
+
+@media screen and (min-width: 413px) and (max-width: 479px) {
+  .header {
+    height: 400px !important;
+  }
+  .header__link {
+    ul {
+      margin-left: 58.5%;
+      list-style: none;
+    }
+    li {
+      float: left;
+      padding: 0 0 4% 8%;
+      > a {
+        font-size: .7em;
+      }
+    }
+  }
+  .header__logo {
+    top: -20px;
+    left: -67px;
+    img {
+      margin-left: 23%;
+      margin-bottom: 2%;
+      width: 15% !important;
+    }
+  }
+  .header__slogan {
+    p {
+      margin-top: -16% !important;
+      margin-left: 8% !important;
+      font-size: 60%;
+    }
+    span {
+      position: relative;
+      /* Относительное позиционирование */
+      top: -11px;
+      /* Сдвиг сверху */
+      left: 66.4px;
+      font-size: 200%;
+    }
+  }
+  .header__menu {
+    margin-top: -7%;
+  }
+  #tab2__img {
+    margin-top: -97% !important;
+    margin-left: 51% !important;
+  }
+  .header__choose-devices {
+    margin-top: -4%;
+    img {
+      margin-top: -108%;
+      margin-left: 51%;
+      width: 50% !important;
+    }
+  }
+  .title {
+    margin-top: -19%;
+    margin-left: 16%;
+    font-size: 1.7em;
+  }
+  .content__heading {
+    margin-top: -4%;
+    margin-bottom: 8%;
+    margin-left: 4.3%;
+    font-size: 1.4em;
+  }
+  .footer__about h3, .footer__download h3, .footer__touch h3 {
+    margin-right: 16%;
+    font-size: 60%;
+  }
+  .footer__download h3 {
+    margin-top: 5%;
+  }
+  .footer__touch h3 {
+    margin-top: 4.5%;
+  }
+  .footer__about__text p {
+    margin-top: 1%;
+    margin-left: 0;
+    font-size: .3em;
+  }
+  .footer__download__list ul {
+    list-style-image: none !important;
+    list-style-type: disc;
+    margin-top: 0;
+    margin-left: 27.5%;
+    font-size: .4em;
+  }
+  .footer__touch__list ul {
+    list-style-image: none !important;
+    list-style-type: disc;
+    margin-top: -28.7%;
+    margin-left: 58.3%;
+    font-size: .4em;
   }
 }
